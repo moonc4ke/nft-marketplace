@@ -33,9 +33,9 @@ To run this project locally, follow these steps.
 1. Clone the project locally, change into the directory, and install the dependencies:
 
 ```sh
-git clone https://github.com/dabit3/polygon-ethereum-nextjs-marketplace.git
+git clone git@github.com:moonc4ke/nft-marketplace.git
 
-cd polygon-ethereum-nextjs-marketplace
+cd nft-marketplace
 
 # install using NPM or Yarn
 npm install
@@ -56,6 +56,11 @@ npx hardhat node
 ```sh
 npx hardhat run scripts/deploy.js --network localhost
 ```
+
+3. Use the following nftMarket and nft address in your config.js file:
+
+![Script data](deploy-script.png)
+![Script data](nftaddress.png)
 
 4. Start the app
 
